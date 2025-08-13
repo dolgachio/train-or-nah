@@ -2,12 +2,13 @@
 """
 Main entry point for the train-or-nah application.
 """
-
+import train_or_nah
 
 def main():
     """Main function."""
-    print("Hello, train-or-nah!")
-
+    message = "Hello, train-or-nah!"  # Set breakpoint here!
+    print(message)
+    train_or_nah.greet("users")  # Call the greet function
 
 if __name__ == "__main__":
     main()
